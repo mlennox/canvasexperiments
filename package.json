@@ -1,0 +1,33 @@
+{
+  "name": "canvasexperiments",
+  "version": "1.0.0",
+  "description": "Some experiments with Canvas / js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mlennox/canvasexperiments.git"
+  },
+  "author": "Mark Lennox",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mlennox/canvasexperiments/issues"
+  },
+  "homepage": "https://github.com/mlennox/canvasexperiments#readme",
+  "devDependencies": {
+    "babel-core": "6.26.0",
+    "babel-jest": "22.4.3",
+    "babel-preset-env": "1.6.1",
+    "eslint": "4.19.1",
+    "eslint-config-airbnb-base": "12.1.0",
+    "eslint-plugin-import": "2.9.0",
+    "jest": "22.4.3",
+    "live-server": "1.2.0",
+    "regenerator-runtime": "0.11.1"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
