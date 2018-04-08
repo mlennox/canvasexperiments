@@ -20,3 +20,5 @@ const ctx = canvas.getContext("2d");
 ```
 
 # Simple shapes
+
+We need to select the `fillStyle` before we draw a shape
