@@ -21,4 +21,29 @@ const ctx = canvas.getContext("2d");
 
 # Simple shapes
 
-We need to select the `fillStyle` before we draw a shape
+We need to select the `fillStyle` before we draw a shape. The colours can't use CSS style at all it seems, so
+
+```js
+// select a pink-ish, see-through fill-style
+this.ctx.fillStyle = "rgb(255,0,100, 0.2)";
+```
+
+Then we can create a filled rectangle
+
+```js
+this.ctx.fillRect(left, top, width, height);
+```
+
+We can also draw a stroke around the border of the rectangle - note the different method to set style.
+
+```js
+this.ctx.strokeStyle = "rgb(0,0,180, 0.3)";
+this.ctx.lineWidth = 30;
+this.ctx.strokeRect(left, top, width, height);
+```
+
+Lastly, we can clear a rectangular area
+
+```js
+this.ctx.clearRect(90, 10, 60, 200);
+```

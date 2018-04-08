@@ -13,13 +13,13 @@ class Simple {
     this.ctx.fillStyle = "rgb(255,0,100, 0.2)";
     this.ctx.fillRect(20, 20, 200, 100);
 
-    // and a second overlapping
-    this.ctx.fillStyle = "rgb(0,0,180, 0.3)";
-    this.ctx.fillRect(40, 60, 240, 40);
+    // and an overlapping stroke
+    this.ctx.strokeStyle = "rgb(0,0,180, 0.3)";
+    this.ctx.lineWidth = 30;
+    this.ctx.strokeRect(50, 60, 240, 120);
 
-    // and a third, sure why not
-    this.ctx.fillStyle = "rgb(0,100,200, 0.9)";
-    this.ctx.fillRect(80, 80, 400, 200);
+    // and we'll take a chunk out of them
+    this.ctx.clearRect(90, 10, 60, 200);
   }
 }
 
