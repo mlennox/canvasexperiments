@@ -4,8 +4,6 @@ Some experiments with Canvas / js
 
 # Primer
 
-We will be using `SVG` to draw on a `canvas` element.
-
 ## Size and ratio
 
 Firstly, the canvas should retain the same dimension ratio - if it resizes to fit a window and does not maintain the original ratio, any drawings will be distorted.
@@ -47,3 +45,5 @@ Lastly, we can clear a rectangular area
 ```js
 this.ctx.clearRect(90, 10, 60, 200);
 ```
+
+# Paths
